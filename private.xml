@@ -123,7 +123,7 @@
     </autogen>
   </item>
 
-</root>
+
   <item>
     <name>Change C-u to End</name>
     <identifier>private.c-f_to_end</identifier>
