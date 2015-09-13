@@ -200,4 +200,15 @@
     </autogen>
   </item>
 
+  <item>
+    <name>C-k -> new tab</name>
+    <identifier>private.c-k_to_new_tab</identifier>
+	<only>GOOGLE_CHROME</only>
+    <autogen>
+      __KeyToKey__
+      KeyCode::V, ModifierFlag::CONTROL_L,
+      KeyCode::K, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
 </root>
