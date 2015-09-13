@@ -89,6 +89,7 @@
       KeyCode::CURSOR_RIGHT
     </autogen>
   </item>
+
   <item>
     <name>Change C-o to PageDown</name>
     <identifier>private.c-s_to_pagedown</identifier>
