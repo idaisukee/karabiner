@@ -134,3 +134,12 @@
       KeyCode::END
     </autogen>
   </item>
+    <name>Change C-q to Control-Shift-Tab</name>
+    <identifier>private.c-x_to_control_shift_tab</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::X, ModifierFlag::CONTROL_L,
+      KeyCode::TAB, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L
+    </autogen>
+  </item>
