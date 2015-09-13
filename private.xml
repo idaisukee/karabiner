@@ -89,5 +89,15 @@
       KeyCode::CURSOR_RIGHT
     </autogen>
   </item>
+  <item>
+    <name>Change C-o to PageDown</name>
+    <identifier>private.c-s_to_pagedown</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::S, ModifierFlag::CONTROL_L,
+      KeyCode::PAGEDOWN
+    </autogen>
+  </item>
 
 </root>
