@@ -146,3 +146,18 @@
       KeyCode::TAB, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L
     </autogen>
   </item>
+
+  <item>
+    <name>Change C-j to Control-Tab</name>
+    <identifier>private.c-c_to_control_tab</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::C, ModifierFlag::CONTROL_L,
+      KeyCode::TAB, ModifierFlag::CONTROL_L, 
+    </autogen>
+  </item>
+
+
+
+</root>
