@@ -156,4 +156,17 @@
     </autogen>
   </item>
 
+  <item>
+    <name>Change C-, to Cmd-c</name>
+    <identifier>private.c-comma_to_cmd_i</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::W, ModifierFlag::CONTROL_L,
+      KeyCode::I, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+
+
 </root>
