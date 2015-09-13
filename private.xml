@@ -178,5 +178,16 @@
     </autogen>
   </item>
 
+  <item>
+    <name>Change C-p to Cmd-v</name>
+    <identifier>private.c-p_to_cmd_period</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::R, ModifierFlag::CONTROL_L,
+      KeyCode::DOT, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
 
 </root>
