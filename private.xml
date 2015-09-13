@@ -134,6 +134,9 @@
       KeyCode::END
     </autogen>
   </item>
+
+
+  <item>
     <name>Change C-q to Control-Shift-Tab</name>
     <identifier>private.c-x_to_control_shift_tab</identifier>
     <not>EMACS</not>
