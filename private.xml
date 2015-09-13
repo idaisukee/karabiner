@@ -189,5 +189,15 @@
     </autogen>
   </item>
 
+  <item>
+    <name>C-; -> close tab</name>
+    <identifier>private.c-semicolon_to_close_tab</identifier>
+	<only>GOOGLE_CHROME</only>
+    <autogen>
+      __KeyToKey__
+      KeyCode::Z, ModifierFlag::CONTROL_L,
+      KeyCode::COMMA, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
 
 </root>
