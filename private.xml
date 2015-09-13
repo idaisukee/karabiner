@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<root>
+<item>
+    <name>Swap Space and Tab</name>
+    <identifier>private.swap_space_and_tab</identifier>
+    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+  </item>
+
+  <item>
+    <name>Change Right Command Key to Escape</name>
+    <identifier>private.right_command_to_escape</identifier>
+    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::ESCAPE</autogen>
+  </item>
+
+  <item>
+    <name>Change C-b to Delete</name>
+    <identifier>private.c-b_to_delete</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::N, ModifierFlag::CONTROL_L,
+      KeyCode::DELETE
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-r to ForwardDelete</name>
+    <identifier>private.c-r_to_forwarddelete</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::O, ModifierFlag::CONTROL_L,
+      KeyCode::H, ModifierFlag::CONTROL_L
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-s to Command-f</name>
+    <identifier>private.c-s_to_command-f</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::SEMICOLON, ModifierFlag::CONTROL_L,
+      KeyCode::Y, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+  <item>
+    <name>C-d to Left Change</name>
+    <identifier>private.c-d_to_left</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::H, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_LEFT
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-h to Down</name>
+    <identifier>private.c-h_to_down</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::J, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-t to Up</name>
+    <identifier>private.c-t_to_up</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::K, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_UP
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-n to Right</name>
+    <identifier>private.c-l_to_right</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::L, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_RIGHT
+    </autogen>
+  </item>
+
+</root>
