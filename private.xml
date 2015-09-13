@@ -111,6 +111,8 @@
       KeyCode::PAGEUP
     </autogen>
   </item>
+
+  <item>
     <name>Change C-a to Home</name>
     <identifier>private.c-a_to_page_down</identifier>
     <not>EMACS</not>
@@ -122,3 +124,13 @@
   </item>
 
 </root>
+  <item>
+    <name>Change C-u to End</name>
+    <identifier>private.c-f_to_end</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F, ModifierFlag::CONTROL_L,
+      KeyCode::END
+    </autogen>
+  </item>
