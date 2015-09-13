@@ -100,6 +100,7 @@
       KeyCode::PAGEDOWN
     </autogen>
   </item>
+
   <item>
     <name>Change C-e to PageDown</name>
     <identifier>private.c-d_to_pageup</identifier>
