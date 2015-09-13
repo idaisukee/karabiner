@@ -167,6 +167,16 @@
     </autogen>
   </item>
 
+  <item>
+    <name>Change C-. to Cmd-x</name>
+    <identifier>private.c-period_to_cmd_x</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::E, ModifierFlag::CONTROL_L,
+      KeyCode::B, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
 
 
 </root>
