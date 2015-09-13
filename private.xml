@@ -31,7 +31,7 @@
     <autogen>
       __KeyToKey__
       KeyCode::O, ModifierFlag::CONTROL_L,
-      KeyCode::H, ModifierFlag::CONTROL_L
+      KeyCode::FORWARD_DELETE
     </autogen>
   </item>
 
