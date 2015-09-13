@@ -119,7 +119,7 @@
     <autogen>
       __KeyToKey__
       KeyCode::A, ModifierFlag::CONTROL_L,
-      KeyCode::HOME
+      KeyCode::A, ModifierFlag::CONTROL_L,
     </autogen>
   </item>
 
@@ -130,7 +130,7 @@
     <autogen>
       __KeyToKey__
       KeyCode::F, ModifierFlag::CONTROL_L,
-      KeyCode::END
+      KeyCode::D, ModifierFlag::CONTROL_L
     </autogen>
   </item>
 
